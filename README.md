@@ -1,4 +1,4 @@
-# Kintz-and-Leather
+# Knitz-and-Leather
 Project Falcon: Website for Kintz & Leather created by Raadwan Masum
 
 Notes
