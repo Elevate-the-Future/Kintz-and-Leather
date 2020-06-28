@@ -7,4 +7,4 @@ Notes
 - [ ] client will **replace images** with desired images
 - [ ] client will **add desired logo and favicon**
 - [ ] client will **update social links**
-- [ ] design changes are welcome
+- [ ] design changes are welcome :)
