@@ -1,4 +1,5 @@
-# kintz-and-leather
+# Kintz-and-Leather
+Website for Kintz & Leather created by Raadwan Masum.
 
 Notes
 -----
