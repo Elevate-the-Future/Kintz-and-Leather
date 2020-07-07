@@ -51,6 +51,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     border-color: #64ace0 !important;
 }
 
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #64ace0 !important;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
