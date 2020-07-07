@@ -42,6 +42,11 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     border-color: #64ace0 !important;
 }
 
+.btn:active {
+    background-color: #64ace0 !important;
+    border-color: #64ace0 !important;
+}
+
 .img-fluid {
     margin: 1rem 0 !important;
 }
