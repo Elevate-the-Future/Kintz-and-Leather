@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
 
 .nav-link:hover {
     color: #64ace0 !important;
-
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
@@ -29,6 +28,9 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
 
 }
 
+.text-primary  {
+    color: #64ace0 !important;
+}
 
 .btn {
     background-color: #64ace0 !important;
@@ -42,6 +44,11 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
 
 .img-fluid {
     margin: 1rem 0 !important;
+}
+
+.timeline-image {
+    background-color: #64ace0 !important;
+    border-color: #64ace0 !important;
 }
 
 ::-webkit-scrollbar {
