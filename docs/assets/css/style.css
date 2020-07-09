@@ -55,6 +55,22 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
+.portfolio-item button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .timeline-image {
     background-color: #64ace0 !important;
     border-color: #64ace0 !important;
