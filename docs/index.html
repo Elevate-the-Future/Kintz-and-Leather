@@ -77,9 +77,10 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-md-4 portfolio-item">
-                        <img class="img-fluid" src="assets/img/portfolio/IMG_0991.jpeg">
+                        <img class="img-fluid" id="img-fluid" src="assets/img/portfolio/IMG_0991.jpeg">
                         <button 
                             class="btn add-to-cart-btn snipcart-add-item"
+                            id="add-to-cart-btn"
                             data-item-id="card-holder"
                             data-item-price="27.00"
                             data-item-url="/"
@@ -168,6 +169,23 @@
                 <div class="col-md-4" style="margin: 0 auto"><span class="copyright">Copyright&nbsp;© Knitz and Leather 2020 <br> <a href="https://www.google.com/maps/dir//1453+Grant+Ave,+San+Francisco,+CA+94133/@37.8003683,-122.4098619,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x808580f14f6ac537:0x7c978b16c83fb9af!2m2!1d-122.4076732!2d37.8003641!3e0" target="_blank">1453 Grant Ave, San Francisco, CA 94133</a></span></div>
             </div>
         </footer>
+        <script>
+            var btn = document.getElementById('add-to-cart-btn');
+            var img = document.getElementById('img-fluid');
+
+            btn.onmouseover = function(e) {
+                img.style.opacity = '0.5';
+            }
+            btn.onmouseout = function(d) {
+                img.style.opacity = '1';
+            }
+            img.onmouseover = function(e) {
+                img.style.opacity = '0.5';
+            }
+            img.onmouseout = function(e) {
+                img.style.opacity = '1';
+            }
+            </script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

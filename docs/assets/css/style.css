@@ -57,6 +57,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
+.img-fluid:hover {
+    opacity: 0.5;
+}
+
 .portfolio-item button {
     display: none;
     position: absolute;
@@ -73,7 +77,11 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     border-radius: 5px;
 }
 
-.img-fluid:hover + .add-to-cart-btn, .add-to-cart-btn:hover {
+.portfolio-item button:hover ~ .img-fluid {
+    opacity: 0.5;
+}
+
+.img-fluid:hover ~ .add-to-cart-btn, .add-to-cart-btn:hover {
     display: inline-block;
 }
 
