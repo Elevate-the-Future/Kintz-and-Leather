@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     font-family: 'Poppins', sans-serif !important;
 }
 
+section {
+    padding: 50px 0 !important;
+}
+
 .navbar {
     background-color: black !important;
 }
@@ -21,6 +25,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
 .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
     color: #64ace0 !important;
+}
+
+.navbar-toggler {
+    background-color: #64ace0 !important;
 }
 
 .nav-link:hover {
@@ -91,8 +99,9 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
 }
 
 .about-content {
-    font-size: 1.5rem !important;
-    font-style: normal !important;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: normal;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
