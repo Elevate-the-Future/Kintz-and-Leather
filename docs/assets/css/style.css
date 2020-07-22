@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     font-family: 'Poppins', sans-serif !important;
 }
 
+section {
+    padding: 50px 0 !important;
+}
+
 .navbar {
     background-color: black !important;
 }
