@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, span {
     color: #64ace0 !important;
 }
 
+.navbar-toggler {
+    background-color: #64ace0 !important;
+}
+
 .nav-link:hover {
     color: #64ace0 !important;
 }
