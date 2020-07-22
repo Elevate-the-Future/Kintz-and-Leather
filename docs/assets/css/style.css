@@ -104,10 +104,6 @@ section {
     font-weight: normal;
 }
 
-.team-member {
-    margin-bottom: 0 !important;
-}
-
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     background-color: #64ace0 !important;
 }
