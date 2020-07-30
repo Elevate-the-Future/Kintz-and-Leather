@@ -44,6 +44,10 @@ section {
     color: #64ace0 !important;
 }
 
+.section-heading {
+    margin-bottom: 30px !important;
+}
+
 .btn {
     background-color: #64ace0 !important;
     border-color: #64ace0 !important;
