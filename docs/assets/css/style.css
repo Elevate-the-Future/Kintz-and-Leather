@@ -25,6 +25,7 @@ section {
 .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
     color: #64ace0 !important;
+    font-size: 2em !important;
 }
 
 .navbar-toggler {
