@@ -25,6 +25,7 @@ section {
 .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
     color: #64ace0 !important;
+    font-size: 2em !important;
 }
 
 .navbar-toggler {
@@ -41,6 +42,10 @@ section {
 
 .text-primary  {
     color: #64ace0 !important;
+}
+
+.section-heading {
+    margin-bottom: 30px !important;
 }
 
 .btn {
@@ -67,6 +72,10 @@ section {
 
 .img-fluid:hover {
     opacity: 0.5;
+}
+
+.img-fluid-2:hover {
+    opacity: 1;
 }
 
 .portfolio-item button {
