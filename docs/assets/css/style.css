@@ -84,6 +84,12 @@ section {
     opacity: 1;
 }
 
+.gallery-container {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
 .portfolio-item button {
     display: none;
     position: absolute;
