@@ -133,6 +133,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     background-color: #64ace0 !important;
 }
 
+@media screen and (max-width: 800px) {
+    .img-fluid-2 {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
