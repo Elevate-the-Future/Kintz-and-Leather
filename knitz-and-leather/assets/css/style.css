@@ -78,7 +78,7 @@ section {
 }
 
 .img-fluid-2 {
-    width: 500px;
+    width: 750px;
     height: 500px;
     object-fit: cover;
     box-shadow: none;
@@ -90,7 +90,7 @@ section {
 
 .gallery-container {
     margin: 0 auto;
-    width: 500px;
+    width: 750px;
     height: 500px;
 }
 
