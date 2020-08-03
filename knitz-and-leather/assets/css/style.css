@@ -68,14 +68,30 @@ section {
 .img-fluid {
     margin: 1rem 0 !important;
     box-shadow: 10px 10px 5px #aaaaaa;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .img-fluid:hover {
     opacity: 0.5;
 }
 
+.img-fluid-2 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: none;
+}
+
 .img-fluid-2:hover {
     opacity: 1;
+}
+
+.gallery-container {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
 }
 
 .portfolio-item button {
