@@ -74,6 +74,12 @@ section {
     opacity: 0.5;
 }
 
+.img-fluid-2 {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
 .img-fluid-2:hover {
     opacity: 1;
 }
