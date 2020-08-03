@@ -68,6 +68,9 @@ section {
 .img-fluid {
     margin: 1rem 0 !important;
     box-shadow: 10px 10px 5px #aaaaaa;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .img-fluid:hover {
